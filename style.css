@@ -1,0 +1,460 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/*----header CSS----*/
+
+#particles-js {
+    height: 100%;
+    background: url(img/c.jpg);
+
+    /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+
+    /* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);     */
+
+    /* background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%); */
+
+    /* background: linear-gradient(239deg, #34e89e, #3c74a8); */
+
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header {
+    height: 100vh;
+}
+
+.user-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.user-box img {
+    border-radius: 50%;
+    width: 250px;
+    border: 2px solid blue;
+}
+
+.user-box h1 {
+    color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+
+}
+
+.user-box p {
+    color: #FFFFFF;
+}
+
+.scroll-btn {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2px 10px 15px;
+    border: 2px solid yellow;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 5px;
+
+}
+
+.scroll-bar span {
+    border: 2px solid white;
+    font-size: 10px;
+    border-radius: 30px;
+}
+
+.scroll-bar {
+    animation: mover 0.9s infinite alternate;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+/*-----Navigation bar-----*/
+
+.nav-bar {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.navbar-brand {
+    width: 50px;
+    background: blue;
+    border-radius: 30px;
+}
+
+.navbar-brand span {
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+li.nav-item a:hover {
+    background: gray;
+    color: white;
+
+}
+
+.nav-bar .fa-bars {
+    font-size: 35px;
+    color: white;
+}
+
+.navbar-nav {
+    float: right;
+    text-align: center;
+}
+
+/*----About CSS----*/
+
+#aboutme {
+    height: 100vh;
+    background: url(img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.a {
+    background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+    position: sticky;
+    top: 0;
+
+
+}
+
+.a h1 {
+    color: #FFFFFF;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 2.1em;
+    padding-top: 20px;
+
+}
+
+.a p {
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    word-spacing: 5px;
+
+}
+
+.link {
+    color: blue;
+    font-size: 20px;
+}
+
+/*----Education CSS----*/
+
+.Education {
+    height: 100vh;
+    background: url(img/3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.Education .con2 {
+
+    height: auto;
+    background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
+    padding-bottom: 30px;
+
+}
+
+.fa-graduation-cap {
+    color: black;
+    padding: 10px;
+}
+
+.h1 {
+    color: #FFFFFF;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.9em;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+
+
+.h4 {
+    color: blue;
+    padding-top: 30px;
+}
+
+
+/* project */
+
+.Education .con2 a{
+    color: rgb(155, 155, 17);
+
+     font-weight: bolder;
+}
+/* 
+.h6{
+     color: blue;
+    
+} */
+
+.Education .con2 .p{
+    font-size:1em;
+}
+p {
+    padding-top: 20px;
+
+}
+
+/*-----Skills CSS----*/
+
+.Skills {
+    height: 100vh;
+    background: url(img/f.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Skills .con3 {
+    height: 550px;
+    background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+
+
+}
+
+.con3 h1 {
+    text-align: center;
+    font-family: 'Poiret One', sans-serif;
+    color: white;
+}
+
+.fa-cogs {
+    padding: 20px;
+    color: black;
+}
+
+.skills-bar p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding-top:10px; */
+    margin-left: 20px;
+    color: yellow;
+}
+
+.progress {
+    /* margin-bottom:10px;
+    margin-left:20px;
+    margin-right:20px; */
+    /* background: black; */
+}
+
+.progress-bar {
+
+    color: white;
+    font-size: 15px;
+
+}
+
+#x {
+    animation: bar infinite 6s;
+}
+
+@keyframes bar {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+
+    }
+}
+
+#y {
+    animation: ba infinite 6s;
+}
+
+@keyframes ba {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 88%;
+
+    }
+}
+
+#z {
+    animation: b infinite 6s;
+}
+
+@keyframes b {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+
+    }
+}
+
+#a {
+    animation: l infinite 6s;
+}
+
+@keyframes l {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+
+    }
+}
+
+#b {
+    animation: k infinite 6s;
+}
+
+@keyframes k {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+
+    }
+}
+
+
+/*-----Contact CSS-----*/
+
+.contact {
+    height: 100vh;
+    background: url(img/cs.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+}
+
+.contact .con4 {
+    height: 380px;
+
+
+    background: linear-gradient(239deg, #34e89e, #3c74a8);
+}
+
+.contact .con4 h1 {
+    padding-top: 30px;
+    color: black;
+}
+
+.contact .row {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact .col-md-6 .fa {
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+
+/*----Social Media CSS----*/
+
+.con4.social-icons {
+    width: 100%;
+
+}
+
+.icons {
+    display: inline-block;
+    list-style-type: none;
+
+
+    padding: 40px;
+    width: 40px;
+    height: 40px;
+
+
+
+}
+
+.icons i {
+
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    border-radius: 30%;
+    width: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    transition: 1.25 linear;
+    color: white;
+}
+
+.icons:hover i {
+    transform: scale(1.5);
+    color: blue;
+}
+
+/*-----footer CSS-----*/
+
+.footer {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #000000;
+}
+
+.footer p {
+    color: silver;
+    font-size: 20px;
+
+}
+
+.fa-heart {
+    color: red;
+    animation: heart 0.5s infinite;
+}
+
+@keyframes heart {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.2);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+}
